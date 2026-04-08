@@ -32,6 +32,11 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 
 .stApp { background: linear-gradient(135deg, #0a0c14 0%, #0d1117 50%, #0a0f1e 100%); }
 
+/* Transparent header to avoid breaking the custom gradient */
+[data-testid="stHeader"] {
+    background: transparent !important;
+}
+
 /* Tab pill style */
 .stTabs [data-baseweb="tab-list"] {
     gap: 6px;
