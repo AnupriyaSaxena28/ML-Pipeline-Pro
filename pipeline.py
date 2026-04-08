@@ -90,7 +90,7 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
     box-shadow: 0 8px 30px rgba(108,99,255,0.25);
 }
 .metric-value { font-size: 2rem; font-weight: 700; color: #6c63ff; }
-.metric-label { font-size: 0.8rem; color: var(--text-color, #8892a4); opacity: 0.7; margin-top: 4px; }
+.metric-label { font-size: 0.8rem; color: var(--text-color, #8892a4); margin-top: 4px; }
 
 /* Hero problem selector */
 .problem-hero {
@@ -102,7 +102,7 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
     margin-bottom: 24px;
 }
 .hero-title { font-size: 2.2rem; font-weight: 700; color: var(--text-color, #e8eaf6); margin-bottom: 8px; }
-.hero-sub { font-size: 1rem; color: var(--text-color, #8892a4); opacity: 0.7; }
+.hero-sub { font-size: 1rem; color: var(--text-color, #8892a4); }
 
 /* Step badge */
 .step-badge {
